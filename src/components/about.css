@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    padding: 100px;
+}
+
+p {
+    font-size: 19px;
+}
+
+.about-line {
+    width: 120px;
+    height: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgb(254, 254, 254);
+}
+
+.about-heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 55px;
+    display: block;
+    left: auto;
+    right: auto;
+}
+
+.about-section {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1;
+    gap: 40px;
+}
+
+.about-name {
+    margin-bottom: 30px;
+}
+
+.image {
+    width: 200px;
+    border-radius: 20%;
+}
+
+.about-connect-button {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 15px;
+}
+
+.about-connect {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1064px) {
+    .about-section {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width:764px) {
+    .about-section {
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
