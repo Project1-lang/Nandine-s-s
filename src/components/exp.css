@@ -26,6 +26,10 @@
     margin-top: 20px;
 }
 
+.exp-active {
+    color: wheat;
+}
+
 .exp-subtitle {
     color: #a690e7;
 }
@@ -36,7 +40,7 @@
 
 .exp-section {
     display: grid;
-    grid-template-columns: 0.5fr;
+    grid-template-columns: 1fr;
     justify-content: center;
 }
 
@@ -50,7 +54,7 @@
 
 .exp-data {
     display: grid;
-    grid-template-columns: 1fr max-content 3fr;
+    grid-template-columns: 3fr max-content 3fr;
     column-gap: 1.5rem;
 }
 
@@ -68,4 +72,8 @@
     height: 100%;
     background-color: white;
     transform: translate(6px, -7px);
+}
+
+.exp-calender {
+    color: grey;
 }
