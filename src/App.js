@@ -10,6 +10,7 @@ import Skill from "./components/Skills";
 import Project from "./components/Projects";
 import ClipLoader from "react-spinners/ClipLoader";
 import Linkedin from "./components/linkedin";
+import Experience from "./components/Experience";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -29,8 +30,9 @@ function App() {
           <About />
           <Skills />
           <Skill />
-            <Project />
-            <Linkedin/>
+          <Project />
+          <Experience />
+          <Linkedin />
         </div>
       )}
     </div>
