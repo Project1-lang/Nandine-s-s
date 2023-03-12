@@ -87,14 +87,15 @@ function BasicExample() {
                 <img src={navIcon3} alt=""></img>
               </a>
             </div>
-            <button
+            <a href="#contact"><button
               className="button"
+            
               onClick={() => {
                 console.log("connnect");
               }}
             >
               <span>Let's Talk</span>
-            </button>
+            </button></a>
           </span>
         </Navbar.Collapse>
       </Container>

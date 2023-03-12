@@ -422,7 +422,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 
 .project {
-    padding: 80px 0;
+    padding: 50px 0;
     position: relative;
     background-color: black;
 }
@@ -569,7 +569,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 
 .contact {
-    background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+    background: #c0392b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 60px 0 200px 0;
 }
 
@@ -865,7 +870,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project {
     color: white;
-    gap: 30px;
+    gap: 10px;
     padding: 25px;
 }
 
@@ -901,7 +906,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .project-card {
     width: 80%;
-    margin: 25px 50px;
+    margin: 25px 80px;
 }
 
 .project-line {
@@ -970,4 +975,19 @@ iframe {
 .exp-icons {
     width: 25px;
     margin-right: 10px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer h3 {
+    font-size: 17px;
+}
+
+.projects {
+    margin-bottom: 50px;
 }

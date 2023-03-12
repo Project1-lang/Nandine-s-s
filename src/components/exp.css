@@ -4,6 +4,21 @@
     margin-bottom: 30px;
 }
 
+.exp-section {
+    background: #de6161;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161);
+    padding: 20px;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* .exp-container {
+    max-width: 768px;
+} */
+
 .exp-button {
     font-size: 18px;
     cursor: pointer;
@@ -31,11 +46,13 @@
 }
 
 .exp-subtitle {
-    color: #a690e7;
+    text-transform: uppercase;
+    color: #1a0753;
 }
 
 .exp-title {
     color: #dce3eb;
+    margin-top: 10px;
 }
 
 .exp-section {
@@ -69,11 +86,32 @@
 .exp-line {
     display: block;
     width: 1px;
-    height: 100%;
+    height: 110%;
     background-color: white;
-    transform: translate(6px, -7px);
+    transform: translate(6px, -5px);
 }
 
 .exp-calender {
-    color: grey;
+    color: rgb(7, 1, 43);
+}
+
+@media screen and (max-width:768px) {
+    .exp-section {
+        margin-left: 40px;
+    }
+    .exp-data {
+        margin-top: 20px;
+    }
+    .exp-subtitle {
+        text-transform: uppercase;
+        color: #1a0753;
+        font-size: 16px;
+    }
+    .exp-title {
+        color: #dce3eb;
+        margin-top: 10px;
+    }
+    .exp-calendar {
+        font-size: 15px;
+    }
 }

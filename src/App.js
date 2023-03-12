@@ -11,6 +11,8 @@ import Project from "./components/Projects";
 import ClipLoader from "react-spinners/ClipLoader";
 import Linkedin from "./components/linkedin";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -33,6 +35,8 @@ function App() {
           <Project />
           <Experience />
           <Linkedin />
+          <Contact />
+          <Footer />
         </div>
       )}
     </div>

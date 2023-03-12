@@ -67,7 +67,7 @@ const Experience = () => {
               <div>
                 <h3 className="exp-title">Higher Secondary Education</h3>
                 <span className="exp-subtitle">
-                  Velammal Vidyalaya, Parthipattu
+                  CBSE, Velammal Vidyalaya, Parthipattu
                 </span>
                 <div className="exp-calender">
                   <h3>
@@ -83,9 +83,9 @@ const Experience = () => {
             </div>
             <div className="exp-data">
               <div>
-                <h3 className="exp-title">Secondary school</h3>
+                <h3 className="exp-title">Secondary Education</h3>
                 <span className="exp-subtitle">
-                  Jaigopal Garodia Vivekanada Vidyalaya
+                  CBSE, Jaigopal Garodia Vivekanada Vidyalaya
                 </span>
                 <div className="exp-calender">
                   <h3>
@@ -114,8 +114,7 @@ const Experience = () => {
                 <div className="exp-calender">
                   <h3>
                     {" "}
-                    <img className="exp-icons" src={calendar} alt="calendar" />1
-                    Month (Jan) - 2023
+                    <img className="exp-icons" src={calendar} alt="calendar" />JAN 2023
                   </h3>
                 </div>
               </div>
