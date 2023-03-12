@@ -914,7 +914,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .linkedin {
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .linkedin-line {
@@ -935,7 +935,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 40px;
 }
 
