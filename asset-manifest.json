@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Nandine-s-s/static/css/main.5876f54c.css",
+    "main.css": "/Nandine-s-s/static/css/main.2ad4ae7e.css",
     "main.js": "/Nandine-s-s/static/js/main.d136745e.js",
     "static/js/787.1ed0c42c.chunk.js": "/Nandine-s-s/static/js/787.1ed0c42c.chunk.js",
     "static/media/hero.jpg": "/Nandine-s-s/static/media/hero.e9d934d46e13100cfb1b.jpg",
@@ -32,12 +32,12 @@
     "static/media/arrow2.svg": "/Nandine-s-s/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/Nandine-s-s/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
     "static/media/nav-icon2.svg": "/Nandine-s-s/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.5876f54c.css.map": "/Nandine-s-s/static/css/main.5876f54c.css.map",
+    "main.2ad4ae7e.css.map": "/Nandine-s-s/static/css/main.2ad4ae7e.css.map",
     "main.d136745e.js.map": "/Nandine-s-s/static/js/main.d136745e.js.map",
     "787.1ed0c42c.chunk.js.map": "/Nandine-s-s/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5876f54c.css",
+    "static/css/main.2ad4ae7e.css",
     "static/js/main.d136745e.js"
   ]
 }
