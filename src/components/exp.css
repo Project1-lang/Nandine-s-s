@@ -5,11 +5,6 @@
 }
 
 .exp-section {
-    background: #de6161;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2657eb, #de6161);
     padding: 20px;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
@@ -47,7 +42,7 @@
 
 .exp-subtitle {
     text-transform: uppercase;
-    color: #1a0753;
+    color: #c1e3ee;
 }
 
 .exp-title {
@@ -79,7 +74,7 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 50%;
 }
 
@@ -92,10 +87,10 @@
 }
 
 .exp-calender {
-    color: rgb(7, 1, 43);
+    color: rgb(182, 172, 244);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     .exp-section {
         margin-left: 40px;
     }
@@ -104,7 +99,7 @@
     }
     .exp-subtitle {
         text-transform: uppercase;
-        color: #1a0753;
+        color: #623bd9;
         font-size: 16px;
     }
     .exp-title {

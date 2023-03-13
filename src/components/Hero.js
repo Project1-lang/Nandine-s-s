@@ -53,7 +53,9 @@ const Hero = () => {
 
   return (
     <section className="banner" id="home">
+    
       <Container>
+        
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
