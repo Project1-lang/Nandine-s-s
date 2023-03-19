@@ -4,7 +4,11 @@ import "./loader.css";
 const Loader = () => {
   return (
     <div className="loader">
-      <img src={Loadergif} className="image" alt="loader" />
+      <img
+        src="https://cdn.dribbble.com/users/332946/screenshots/3296132/n.gif"
+        className="image"
+        alt="loader"
+      />
     </div>
   );
 };

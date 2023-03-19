@@ -19,12 +19,12 @@ const SkillsAnimation = () => {
         alt="starts"
       />
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/1200px-Valorant_logo_-_pink_color_version.svg.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
         className="hero__rocket_5"
         alt="starts"
       />
       <img
-        src="https://ctftime.org/media/events/LOGO_CTF_nohand.png"
+        src="https://cdn-icons-png.flaticon.com/512/1260/1260667.png"
         className="hero__rocket_6"
         alt="starts"
       />
@@ -34,9 +34,19 @@ const SkillsAnimation = () => {
         alt="starts"
       />
       <img
-        src="https://saylent.com/wp-content/uploads/2018/04/960px-Shark_Tank_TV_logo.png"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"
         className="hero__rocket_7"
         alt="starts"
+      />
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
+        className="hero__rocket_8"
+        alt=""
+      />
+      <img
+        src="https://www.wizcase.com/wp-content/uploads/2020/12/IndESIGN-LOGO.png"
+        className="hero__rocket_9"
+        alt=""
       />
     </div>
   );

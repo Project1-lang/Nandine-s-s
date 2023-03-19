@@ -1,15 +1,15 @@
 import Container from "react-bootstrap/Container";
-
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 // import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import FacebookIcon from "@mui/icons-material/Facebook";
 // import TwitterIcon from "@mui/icons-material/Twitter";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
-import theme from "../assets/img/theme.png";
+import navIcon2 from "../assets/img/github.png";
+import navIcon3 from "../assets/img/discord.png";
+import theme from "../assets/img/first.png";
 import { useState, useEffect } from "react";
+
 function BasicExample() {
   const [activeState, setState] = useState("home");
   const [scrolled, seScrolled] = useState(false);
@@ -22,7 +22,17 @@ function BasicExample() {
       }
     };
   });
-
+  const [theme, setDarktheme] = useState("light");
+  const light = () => {
+    if (theme === "light") {
+      setDarktheme("dark");
+    } else {
+      setDarktheme("light");
+    }
+  };
+  // useEffect(() => {
+  //   document.body.className = "App";
+  // }, [theme]);
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
@@ -80,22 +90,31 @@ function BasicExample() {
               <a href="https://www.linkedin.com/in/nandine-s-s-228032226">
                 <img src={navIcon1} alt=""></img>
               </a>
-              <a href="#">
-                <img src={navIcon2} alt=""></img>
+              <a href="https://github.com/Project1-lang">
+                <img src={navIcon2} alt="" className="social-git"></img>
               </a>
-              <a href="#">
+              <a href="https://discord.com/">
                 <img src={navIcon3} alt=""></img>
               </a>
             </div>
-            <a href="#contact"><button
-              className="button"
-            
-              onClick={() => {
-                console.log("connnect");
-              }}
-            >
-              <span>Let's Talk</span>
-            </button></a>
+            <a href="#contact">
+              <button
+                className="button"
+                onClick={() => {
+                  console.log("connnect");
+                }}
+              >
+                <span>Let's Talk</span>
+              </button>
+            </a>
+
+            <button className="button" onClick={light}>
+              <img
+                className="social-theme"
+                src="https://cdn-icons-png.flaticon.com/512/6803/6803223.png"
+                alt=""
+              ></img>
+            </button>
           </span>
         </Navbar.Collapse>
       </Container>

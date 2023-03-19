@@ -4,9 +4,15 @@
     margin-bottom: 30px;
 }
 
+
+/* #exp {
+    background: #C04848;
+    background: -webkit-linear-gradient(to right, #480048, #C04848);
+    background: linear-gradient(to right, #480048, #C04848);
+} */
+
 .exp-section {
-    padding: 20px;
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
 }
 
 
@@ -93,6 +99,7 @@
 @media screen and (max-width: 768px) {
     .exp-section {
         margin-left: 40px;
+        width: 100%;
     }
     .exp-data {
         margin-top: 20px;
@@ -108,5 +115,11 @@
     }
     .exp-calendar {
         font-size: 15px;
+    }
+    .exp-tabs {
+        margin-left: 60px;
+    }
+    .exp-heading {
+        margin-left: 70px;
     }
 }

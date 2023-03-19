@@ -35,8 +35,8 @@ const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
-      <div className="container">
+    <section className="skill" id="skills" data-interval="10000">
+      <div className="container" data-interval="1000">
         <div className="row">
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
@@ -49,6 +49,7 @@ const Skills = () => {
               <Carousel
                 responsive={responsive}
                 infinite={true}
+                data-interval="false"
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">

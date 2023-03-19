@@ -8,7 +8,7 @@ const Contact = () => {
   const formInitialDetails = {
     firstName: "",
     lastName: "",
-    email: "nandine0804@gmail.com",
+    email: "",
     phone: "",
     message: "",
   };
@@ -71,7 +71,7 @@ const Contact = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Get In Touch</h2>
+                  <h2>Connect with me! Happy to hear your opinions</h2>
                   <form onSubmit={handleSubmit}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
@@ -106,9 +106,9 @@ const Contact = () => {
                       </Col>
                       <Col size={12} sm={6} className="px-1">
                         <input
-                          type="tel"
+                          type="text"
                           value={formDetails.phone}
-                          placeholder="Phone No."
+                          placeholder="Your Interest?"
                           onChange={(e) =>
                             onFormUpdate("phone", e.target.value)
                           }
@@ -149,6 +149,5 @@ const Contact = () => {
     </section>
   );
 };
-
 
 export default Contact;

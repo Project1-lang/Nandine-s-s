@@ -74,12 +74,11 @@ p {
 @media screen and (max-width: 764px) {
     .about-section {
         padding: 5px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
+        margin-left: 20px;
     }
     .about {
         padding: 50px;
         margin-bottom: 30px;
+        width: 136%;
     }
 }

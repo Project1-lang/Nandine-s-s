@@ -22,7 +22,7 @@ function App() {
     }, 5000);
   }, []);
   return (
-    <div className="App">
+    <div className="App" id="light">
       {loading ? (
         <Loader color={"white"} size={"500px"} loading={loading} />
       ) : (
