@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nandine-s-s/static/css/main.5c65d0b3.css",
-    "main.js": "/Nandine-s-s/static/js/main.d136745e.js",
+    "main.css": "/Nandine-s-s/static/css/main.132af09e.css",
+    "main.js": "/Nandine-s-s/static/js/main.3c178656.js",
     "static/js/787.1ed0c42c.chunk.js": "/Nandine-s-s/static/js/787.1ed0c42c.chunk.js",
     "static/media/image.png": "/Nandine-s-s/static/media/image.c3812ce813614a192802.png",
     "static/media/color-sharp.png": "/Nandine-s-s/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -15,7 +15,7 @@
     "static/media/tailwindcss.png": "/Nandine-s-s/static/media/tailwindcss.1c608a17148c5e8acea9.png",
     "static/media/reactjs.png": "/Nandine-s-s/static/media/reactjs.20adfb35ae6a6e5817bf.png",
     "static/media/nodejs.png": "/Nandine-s-s/static/media/nodejs.007e99f68b718e476aba.png",
-    "static/media/theme.png": "/Nandine-s-s/static/media/theme.5a90a6cb6629f3fd538e.png",
+    "static/media/discord.png": "/Nandine-s-s/static/media/discord.cac9d8416879af8620a8.png",
     "static/media/figma.png": "/Nandine-s-s/static/media/figma.807c30c16cbf32c2e057.png",
     "static/media/html.png": "/Nandine-s-s/static/media/html.6e930594286d8afe4c79.png",
     "static/media/css.png": "/Nandine-s-s/static/media/css.463e319bad8e0edf1ef7.png",
@@ -27,16 +27,16 @@
     "static/media/revicons.woff": "/Nandine-s-s/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/nav-icon3.svg": "/Nandine-s-s/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/Nandine-s-s/index.html",
+    "static/media/nav-icon2.svg": "/Nandine-s-s/static/media/nav-icon2.6ab84f91d61d63010d65a44abd7e86d9.svg",
     "static/media/nav-icon1.svg": "/Nandine-s-s/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/arrow2.svg": "/Nandine-s-s/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/Nandine-s-s/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "static/media/nav-icon2.svg": "/Nandine-s-s/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.5c65d0b3.css.map": "/Nandine-s-s/static/css/main.5c65d0b3.css.map",
-    "main.d136745e.js.map": "/Nandine-s-s/static/js/main.d136745e.js.map",
+    "main.132af09e.css.map": "/Nandine-s-s/static/css/main.132af09e.css.map",
+    "main.3c178656.js.map": "/Nandine-s-s/static/js/main.3c178656.js.map",
     "787.1ed0c42c.chunk.js.map": "/Nandine-s-s/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c65d0b3.css",
-    "static/js/main.d136745e.js"
+    "static/css/main.132af09e.css",
+    "static/js/main.3c178656.js"
   ]
 }
