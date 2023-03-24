@@ -8,6 +8,7 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github.png";
 import navIcon3 from "../assets/img/discord.png";
 import theme from "../assets/img/first.png";
+import DarkMode from "./DarkMode";
 import { useState, useEffect } from "react";
 
 function BasicExample() {
@@ -107,14 +108,8 @@ function BasicExample() {
                 <span>Let's Talk</span>
               </button>
             </a>
-
-            <button className="button" onClick={light}>
-              <img
-                className="social-theme"
-                src="https://cdn-icons-png.flaticon.com/512/6803/6803223.png"
-                alt=""
-              ></img>
-            </button>
+              {/* <DarkMode /> */}
+            
           </span>
         </Navbar.Collapse>
       </Container>

@@ -12,7 +12,9 @@ const Experience = () => {
   return (
     <section className="exp-section" id="exp">
       <div className="exp-heading">
-        <h1 className="about-me">Journey Experience</h1>
+        <h1 className="about-me" id="journey">
+          Journey Experience
+        </h1>
         <span className="about-line"></span>
       </div>
       <div className="exp-container container">
@@ -114,7 +116,8 @@ const Experience = () => {
                 <div className="exp-calender">
                   <h3>
                     {" "}
-                    <img className="exp-icons" src={calendar} alt="calendar" />JAN 2023
+                    <img className="exp-icons" src={calendar} alt="calendar" />
+                    JAN 2023
                   </h3>
                 </div>
               </div>
@@ -140,8 +143,12 @@ const Experience = () => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
+      
+
+      
     </section>
   );
 };

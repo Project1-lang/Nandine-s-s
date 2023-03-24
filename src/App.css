@@ -389,7 +389,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .txt-rotate>.wrap {
-    border-right: 0.08em solid #666;
+    border-right: 0.08em solid whitesmoke;
+    color: #623bd9;
 }
 
 @media screen and (max-width: 763px) {
@@ -400,7 +401,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         width: 100%;
     }
     .banner {
-        width: 140%;
+        width: 130%;
         margin-left: 10px;
     }
     .banner img {
@@ -411,10 +412,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     .banner h1 {
         font-size: 55px;
     }
-    .row-cols-1>* {
-        flex: 0 0 auto;
-        width: 100%;
-        margin-left: 50px;
+    .projects {
+        margin-left: 40px;
     }
     .project-heading {
         text-align: center;
@@ -461,7 +460,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background: #151515;
     border-radius: 64px;
     text-align: center;
-    padding: 60px 50px;
+    padding: 60px 60px;
     margin-top: -60px;
 }
 
@@ -479,7 +478,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-slider {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     position: relative;
 }
@@ -497,43 +496,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     z-index: -4;
 }
 
-@media screen and (max-width:764px) {
+@media screen and (max-width: 764px) {
     .skill-bx {
-        margin-left: 40px;
+        margin-left: 20px;
         margin-top: 30px;
         padding: 40px;
-        width: 120%;
+        width: 130%;
     }
     .skill-slider {
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
         position: relative;
     }
     .skill-slider .item img {
-        width: 50%;
+        width: 40%;
         margin: 0 auto 15px auto;
     }
     .react-multiple-carousel__arrow--right {
-        right: calc(10% + 1px);
+        right: calc(-5% + 1px);
+    }
+    .react-multiple-carousel__arrow--left {
+        left: calc(-4% + 1px);
+    }
+    .react-multiple-carousel__arrow {
+        position: absolute;
+        /* background: rgba(0,0,0,0.5); */
     }
 }
 
 
 /************ Projects Css ************/
 
-.project {
+.projects {
     padding: 50px 0;
     position: relative;
-    background-color: black;
 }
 
-.project h2 {
+.projects h2 {
     font-size: 45px;
     font-weight: 700;
     text-align: center;
 }
 
-.project p {
+.projects p {
     color: #000000;
     font-size: 18px;
     letter-spacing: 0.8px;
@@ -543,122 +548,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 90%;
 }
 
-.project .nav.nav-pills {
-    width: 72%;
-    margin: 0 auto;
-    border-radius: 50px;
-    background-color: rgb(255 255 255 / 10%);
-    overflow: hidden;
-}
-
-.project .nav.nav-pills .nav-item {
-    width: 33.33333%;
-}
-
-.project .nav.nav-pills .nav-link {
-    background-color: transparent;
-    border-radius: 0;
-    padding: 17px 0;
-    color: #fff;
-    width: 100%;
-    font-size: 17px;
-    letter-spacing: 0.8px;
-    font-weight: 500;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    text-align: center;
-    z-index: 0;
-}
-
-.project .nav.nav-pills .nav-link::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 100%;
-    background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: 0.3s ease-in-out;
-}
-
-.project .nav.nav-pills .nav-link.active::before {
-    width: 100% !important;
-}
-
-.project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
-
-.nav-link#projects-tabs-tab-first {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 55px 0px 0px 55px;
-}
-
-.nav-link#projects-tabs-tab-second {
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.nav-link#projects-tabs-tab-third {
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 0 55px 55px 0;
-}
-
-.proj-imgbx {
-    position: relative;
-    border-radius: 30px;
-    overflow: hidden;
-    margin-bottom: 24px;
-}
-
-.row-cols-1>* {
-    flex: 0 0 auto;
-    width: 100%;
-}
-
-.proj-imgbx::before {
-    content: "";
-    background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-    opacity: 0.85;
-    position: absolute;
-    width: 100%;
-    height: 0;
-    transition: 0.4s ease-in-out;
-}
-
-.proj-imgbx:hover::before {
-    height: 100%;
-}
-
-.proj-txtx {
-    position: absolute;
-    text-align: center;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: 0.5s ease-in-out;
-    opacity: 0;
-    width: 100%;
-}
-
-.proj-imgbx:hover .proj-txtx {
-    top: 50%;
-    opacity: 1;
-}
-
-.proj-txtx h4 {
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1.1em;
-}
-
-.proj-txtx span {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 15px;
-    letter-spacing: 0.8px;
+.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    gap: 40px;
+    width: 90%;
+    margin-left: 30px;
 }
 
 .background-image-right {
@@ -1001,8 +897,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     border-radius: 10px;
     margin-top: 25px;
     padding: 15px;
-    margin-left: 30px;
+    text-align: center;
+    width: 200px;
+    margin-right: 10px;
 }
+
+.projects-cards Card {}
 
 .project-heading {
     color: white;
@@ -1025,11 +925,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 15px;
     color: #242424;
     text-align: left;
-}
-
-.project-card {
-    width: 80%;
-    margin: 25px 50px;
 }
 
 .project-line {
@@ -1068,6 +963,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media screen and (max-width: 768px) {
+    .projects-cards {
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        gap: 40px;
+        width: 130%;
+        margin-left: 30px;
+    }
+    .project-button {
+        border-radius: 10px;
+        margin-top: 25px;
+        padding: 15px;
+        width: 150px;
+        margin-right: 10px;
+    }
     .linkedin {
         margin-top: 60px;
         width: 130%;
@@ -1075,7 +985,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     .linkedin-heading {
         display: block;
         right: 0;
-        left: 0
+        left: 0;
     }
     .linkedin-feed {
         margin-left: 40px;

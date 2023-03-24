@@ -5,12 +5,22 @@ const About = () => {
   return (
     <div id="about" className="about">
       <div className="about-heading">
+        {/* <div class="main">
+          <span>A</span>
+          <span>B</span>
+          <span class="letter"></span>
+          <span>U</span>
+          <span>T</span>
+          <span></span>
+          <span>M</span>
+          <span>E</span>
+        </div> */}
         <h1 className="about-me">About me</h1>
         <span className="about-line"></span>
       </div>
       <div className="about-section">
         <p>
-          <span>I'm Nandine </span>
+          I'm Nandine
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
           dignissimos ab veritatis iste cumque laborum, officiis fugit enim
           consequatur, repellendus minus exercitationem necessitatibus sed autem
