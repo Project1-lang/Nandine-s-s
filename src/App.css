@@ -31,9 +31,9 @@ html {
 }
 
 body {
+    min-width: 80%;
     font-weight: 400;
     overflow-x: hidden;
-    position: absolute;
     color: #fff !important;
     background-color: #020202 !important;
     font-family: "Centra", sans-serif !important;
@@ -296,30 +296,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
     padding: 260px 0 100px 0;
-    width: 100%;
-    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     background-position: center;
     background-size: cover;
     background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEgqCer_w1svtRJCNIBTRW-93b-2VHgGvZWN0Ld3VTDVRSbT5ZTCPY9DQQRLmkyv6LhPOJKETol6tgDjMp-xERoiLnIXKMwmJcpzD9JNpf01ynUZjRYzsiP0WSvyR35sV-U157pOehpoqwpVZpgxzKrwJbADiyG8KL_2TzqAGzHxKl4jBRr-S7Ei6wSp6g=w640-h360");
-    background-repeat: no-repeat;
-}
-
-
-/* @keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-} */
-
-.banner-white {
-    margin-top: 0;
-    padding: 260px 0 100px 0;
-    background: white;
-    background-position: top center;
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -348,7 +329,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    width: 96%;
+    width: 90%;
 }
 
 .banner button {
@@ -393,18 +374,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: #623bd9;
 }
 
-@media screen and (max-width: 763px) {
-    body {
-        overflow-x: hidden;
+@media only screen and (max-width: 763px) {
+    nav.navbar .navbar-nav .nav-link.navbar-link {
+        margin-top: 20px;
+        text-align: center;
     }
-    .background {
-        width: 100%;
+    .social-icon {
+        margin-top: 40px;
     }
-    .banner {
-        width: 130%;
-        margin-left: 10px;
+    .navbar-text button {
+        margin-top: 40px;
+        margin-left: 40px;
     }
     .banner img {
+        min-width: 50%;
         animation: updown 3s linear infinite;
         margin-left: 20px;
         margin-top: 20px;
@@ -412,29 +395,43 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     .banner h1 {
         font-size: 55px;
     }
-    .projects {
-        margin-left: 40px;
-    }
     .project-heading {
         text-align: center;
-        margin-left: 60px;
+        margin-left: 0px;
     }
-}
-
-@media (max-width: 920px) {
-    .col-md-6 {
-        flex: 0 0 auto;
-        width: 100%;
+    .about {
+        margin-left: -70px;
+    }
+    .about-heading {
+        text-align: center;
+        margin-left: 50px;
+    }
+    .about-connect {
+        flex-wrap: wrap;
+        display: flex;
+        gap: 0;
+    }
+    .about-connect-button {
+        margin-top: 25px;
+        margin-left: 50px;
+        font-size: 13px;
+        flex: 50%;
+    }
+    .about-section {
+        width: 130%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .skill-slider .item img {
+        width: 40%;
+        margin: 0 auto 15px auto;
     }
 }
 
 @media screen and (max-width: 453px) {
     body {
         overflow-x: hidden;
-    }
-    .background {
-        width: 105%;
-        margin-left: 0px;
     }
 }
 
@@ -446,6 +443,71 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         width: 120%;
         margin-left: 0px;
     }
+}
+
+
+/********************ABOUT*************/
+
+.about {
+    padding: 100px;
+}
+
+.about-line {
+    width: 120px;
+    height: 5px;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgb(254, 254, 254);
+}
+
+.about-heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 55px;
+    display: block;
+    left: auto;
+    right: auto;
+}
+
+.about-section {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex: 1 1;
+    gap: 40px;
+}
+
+.about-name {
+    margin-bottom: 30px;
+}
+
+.image {
+    width: 200px;
+    border-radius: 20%;
+}
+
+.about-connect-button {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 15px;
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+    text-transform: uppercase;
+}
+
+.about-connect-button:hover {
+    background-color: #623bd9;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.about-connect {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 
@@ -498,10 +560,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media screen and (max-width: 764px) {
     .skill-bx {
-        margin-left: 20px;
         margin-top: 30px;
         padding: 40px;
-        width: 130%;
     }
     .skill-slider {
         width: 90%;
@@ -513,40 +573,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         margin: 0 auto 15px auto;
     }
     .react-multiple-carousel__arrow--right {
-        right: calc(-5% + 1px);
+        right: calc(-7% + 1px);
     }
     .react-multiple-carousel__arrow--left {
-        left: calc(-4% + 1px);
+        left: calc(-11% + 1px);
     }
     .react-multiple-carousel__arrow {
         position: absolute;
-        /* background: rgba(0,0,0,0.5); */
+        outline: 0;
+        transition: all .5s;
+        border-radius: 35px;
+        z-index: 1000;
+        border: 0;
     }
 }
 
 
 /************ Projects Css ************/
-
-.projects {
-    padding: 50px 0;
-    position: relative;
-}
-
-.projects h2 {
-    font-size: 45px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.projects p {
-    color: #000000;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px auto 30px auto;
-    text-align: left;
-    width: 90%;
-}
 
 .projects-cards {
     display: flex;
@@ -554,7 +597,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     color: black;
     gap: 40px;
     width: 90%;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .background-image-right {
@@ -883,16 +926,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin: 10px;
 }
 
-.project-section {
-    padding: 40px;
-}
-
-.project {
-    color: white;
-    gap: 10px;
-    padding: 25px;
-}
-
 .project-button {
     border-radius: 10px;
     margin-top: 25px;
@@ -901,8 +934,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 200px;
     margin-right: 10px;
 }
-
-.projects-cards Card {}
 
 .project-heading {
     color: white;
@@ -963,24 +994,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media screen and (max-width: 768px) {
+    .postcard .postcard__preview-txt {
+        font-size: 16px;
+    }
     .projects-cards {
         display: flex;
         flex-wrap: wrap;
         color: black;
         gap: 40px;
-        width: 130%;
-        margin-left: 30px;
+        margin-left: 20px;
     }
     .project-button {
         border-radius: 10px;
-        margin-top: 25px;
         padding: 15px;
-        width: 150px;
-        margin-right: 10px;
+        width: 250px;
     }
     .linkedin {
         margin-top: 60px;
-        width: 130%;
     }
     .linkedin-heading {
         display: block;
@@ -988,7 +1018,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         left: 0;
     }
     .linkedin-feed {
-        margin-left: 40px;
+        margin-left: 0px;
     }
 }
 
@@ -1041,10 +1071,34 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+    .banner {
+        padding: 260px 0 100px 0;
+        min-width: 100%;
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEgqCer_w1svtRJCNIBTRW-93b-2VHgGvZWN0Ld3VTDVRSbT5ZTCPY9DQQRLmkyv6LhPOJKETol6tgDjMp-xERoiLnIXKMwmJcpzD9JNpf01ynUZjRYzsiP0WSvyR35sV-U157pOehpoqwpVZpgxzKrwJbADiyG8KL_2TzqAGzHxKl4jBRr-S7Ei6wSp6g=w640-h360");
+        background-repeat: no-repeat;
+    }
+    .banner h1 {
+        font-size: 40px;
+    }
     .contact {
-        margin-left: 30px;
-        width: 130%;
         border-radius: 30px;
+    }
+    .contact h2 {
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    .contact form button {
+        font-weight: 700;
+        color: #000;
+        background-color: #fff;
+        padding: 14px 48px;
+        font-size: 18px;
+        width: 200px;
+        margin-left: 80px;
     }
 }
 

@@ -33,12 +33,12 @@ function App() {
           <Hero /> 
           <About />
           <Skills />
-          <Skill />
-          <Project />
-          {/* <Experience /> */}
+        <Skill />
+          <Project /> 
+          <Experience />
           <Linkedin />
-          {/* <Contact /> */}
-          {/* <Footer /> */}
+          <Contact />
+          <Footer />
         </div>
       )}
     </div>

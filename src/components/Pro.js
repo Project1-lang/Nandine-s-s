@@ -13,25 +13,25 @@ function Pro() {
       </div>
       <div className="projects-cards">
         <section class="dark">
-          <article class="postcard dark blue">
-            <a class="postcard__img_link" href="#">
+          <article className="postcard dark blue">
+            <a className="postcard__img_link" href="#">
               <img
-                class="postcard__img"
+                className="postcard__img"
                 src="https://picsum.photos/1000/1000"
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text">
-              <h1 class="postcard__title blue">
+            <div className="postcard__text">
+              <h1 className="postcard__title blue">
                 <a href="#">Podcast Title</a>
               </h1>
-              <div class="postcard__subtitle small">
+              <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
-                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
                 </time>
               </div>
-              <div class="postcard__bar"></div>
-              <div class="postcard__preview-txt">
+              <div className="postcard__bar"></div>
+              <div className="postcard__preview-txt">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi, fugiat asperiores inventore beatae accusamus odit
                 minima enim, commodi quia, doloribus eius! Ducimus nemo
@@ -40,8 +40,8 @@ function Pro() {
                 neque nulla unde ipsum dolores nobis enim quidem excepturi,
                 illum quos!
               </div>
-              <ul class="postcard__tagbox">
-                <li class="tag__item">
+              <ul className="postcard__tagbox">
+                <li className="tag__item">
                   <Button variant="dark" className="project-button">
                     Demo Link
                   </Button>
@@ -55,24 +55,24 @@ function Pro() {
             </div>
           </article>
           <article class="postcard dark red">
-            <a class="postcard__img_link" href="#">
+            <a className="postcard__img_link" href="#">
               <img
-                class="postcard__img"
+                className="postcard__img"
                 src="https://picsum.photos/501/500"
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text">
-              <h1 class="postcard__title red">
+            <div className="postcard__text">
+              <h1 className="postcard__title red">
                 <a href="#">Podcast Title</a>
               </h1>
-              <div class="postcard__subtitle small">
+              <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
-                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
                 </time>
               </div>
-              <div class="postcard__bar"></div>
-              <div class="postcard__preview-txt">
+              <div className="postcard__bar"></div>
+              <div className="postcard__preview-txt">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi, fugiat asperiores inventore beatae accusamus odit
                 minima enim, commodi quia, doloribus eius! Ducimus nemo
@@ -81,13 +81,13 @@ function Pro() {
                 neque nulla unde ipsum dolores nobis enim quidem excepturi,
                 illum quos!
               </div>
-              <ul class="postcard__tagbox">
-                <li class="tag__item">
+              <ul className="postcard__tagbox">
+                <li className="tag__item">
                   <Button variant="dark" className="project-button">
                     Demo Link
                   </Button>
                 </li>
-                <li class="tag__item">
+                <li className="tag__item">
                   <Button variant="dark" className="project-button">
                     Github Link
                   </Button>
@@ -103,17 +103,17 @@ function Pro() {
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text">
-              <h1 class="postcard__title green">
+            <div className="postcard__text">
+              <h1 className="postcard__title green">
                 <a href="#">Podcast Title</a>
               </h1>
-              <div class="postcard__subtitle small">
+              <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
-                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
                 </time>
               </div>
-              <div class="postcard__bar"></div>
-              <div class="postcard__preview-txt">
+              <div className="postcard__bar"></div>
+              <div className="postcard__preview-txt">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi, fugiat asperiores inventore beatae accusamus odit
                 minima enim, commodi quia, doloribus eius! Ducimus nemo
@@ -122,8 +122,8 @@ function Pro() {
                 neque nulla unde ipsum dolores nobis enim quidem excepturi,
                 illum quos!
               </div>
-              <ul class="postcard__tagbox">
-                <li class="tag__item">
+              <ul className="postcard__tagbox">
+                <li className="tag__item">
                   <Button variant="dark" className="project-button">
                     Demo Link
                   </Button>
@@ -136,25 +136,25 @@ function Pro() {
               </ul>
             </div>
           </article>
-          <article class="postcard dark yellow">
-            <a class="postcard__img_link" href="#">
+          <article className="postcard dark yellow">
+            <a className="postcard__img_link" href="#">
               <img
-                class="postcard__img"
+                className="postcard__img"
                 src="https://picsum.photos/501/501"
                 alt="Image Title"
               />
             </a>
-            <div class="postcard__text">
-              <h1 class="postcard__title yellow">
+            <div className="postcard__text">
+              <h1 className="postcard__title yellow">
                 <a href="#">Podcast Title</a>
               </h1>
-              <div class="postcard__subtitle small">
+              <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
-                  <i class="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
+                  <i className="fas fa-calendar-alt mr-2"></i>Mon, May 25th 2020
                 </time>
               </div>
-              <div class="postcard__bar"></div>
-              <div class="postcard__preview-txt">
+              <div className="postcard__bar"></div>
+              <div className="postcard__preview-txt">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Eligendi, fugiat asperiores inventore beatae accusamus odit
                 minima enim, commodi quia, doloribus eius! Ducimus nemo
@@ -163,13 +163,13 @@ function Pro() {
                 neque nulla unde ipsum dolores nobis enim quidem excepturi,
                 illum quos!
               </div>
-              <ul class="postcard__tagbox">
-                <li class="tag__item">
+              <ul className="postcard__tagbox">
+                <li className="tag__item">
                   <Button variant="dark" className="project-button">
                     Demo Link
                   </Button>
                 </li>
-                <li class="tag__item">
+                <li className="tag__item">
                   <Button variant="dark" className="project-button">
                     Github Link
                   </Button>
