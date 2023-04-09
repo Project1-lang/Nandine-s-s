@@ -12,8 +12,8 @@ const About = () => {
       <div className="about-section">
         <p>
           I have a passion for building stunning and useful websites and
-          consider myself to be a skilled web developer and designer.I'm
-          currently somophore student at Rajalakshmi Engineering College, where
+          consider myself to be a skilled web developer and designer.
+          I'm currently somophore student at Rajalakshmi Engineering College, where
           I'm laying a solid foundation in computer science and business
           systems. I also had the chance to design the website for my
           department, which attracts lots of students due to the numerous
@@ -21,10 +21,10 @@ const About = () => {
         </p>
         <p>
           I like to create new things or start from scratch in my spare time,
-          experiment with emerging design trends and techniques.I'm elated about
+          experiment with emerging design trends and techniques. I'm elated about
           the career opportunities that lie ahead of me and am looking forward
           to applying my knowledge and expertise to develop powerful,
-          user-centered digital experiences.I can't wait to put my knowledge and
+          user-centered digital experiences. I can't wait to put my knowledge and
           experience to use in creating effective, user-centered digital
           experiences.
         </p>

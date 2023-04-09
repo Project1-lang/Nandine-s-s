@@ -25,7 +25,7 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-          alert('Oops...')
+          alert('Oops...Try Again')
         }
     );
     e.target.reset();
@@ -98,7 +98,7 @@ const Contact = () => {
                           required
                         ></textarea>
                         <button type="submit">
-                          <span>SEND</span>
+                          <span>Let's Connect</span>
                         </button>
                       </Col>
                     </Row>

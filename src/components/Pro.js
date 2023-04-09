@@ -23,7 +23,7 @@ function Pro() {
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title blue">
-                <a href="#">Podcast Title</a>
+                <a href="#">PROJECT NO 1</a>
               </h1>
               <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
@@ -64,7 +64,7 @@ function Pro() {
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title red">
-                <a href="#">Podcast Title</a>
+                <a href="#">PROJECT NO 2</a>
               </h1>
               <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
@@ -105,7 +105,7 @@ function Pro() {
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title green">
-                <a href="#">Podcast Title</a>
+                <a href="#">PROJECT NO 3</a>
               </h1>
               <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
@@ -146,7 +146,7 @@ function Pro() {
             </a>
             <div className="postcard__text">
               <h1 className="postcard__title yellow">
-                <a href="#">Podcast Title</a>
+                <a href="#">PROJECT NO 4</a>
               </h1>
               <div className="postcard__subtitle small">
                 <time datetime="2020-05-25 12:00:00">
