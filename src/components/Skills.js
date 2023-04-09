@@ -7,6 +7,8 @@ import meter6 from "../assets/img/figma.png";
 import meter7 from "../assets/img/Indesign.png";
 import meter8 from "../assets/img/bootstrap.png";
 import meter9 from "../assets/img/nodejs.png";
+import meter10 from "../assets/img/git-logo.png";
+import meter11 from "../assets/img/firebase.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
@@ -73,12 +75,20 @@ const Skills = () => {
                   <h5>Tailwind css</h5>
                 </div>
                 <div className="item">
+                  <img src={meter10} alt="Image" />
+                  <h5>Git</h5>
+                </div>
+                <div className="item">
                   <img src={meter5} alt="Image" />
                   <h5>ReactJS</h5>
                 </div>
                 <div className="item">
                   <img src={meter9} alt="Image" />
                   <h5>NodeJS</h5>
+                </div>
+                <div className="item">
+                  <img src={meter11} alt="Image" />
+                  <h5>Firebase</h5>
                 </div>
                 <div className="item">
                   <img src={meter6} alt="Image" />

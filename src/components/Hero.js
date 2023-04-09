@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Image from "../assets/img/image.png";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
-import DarkMode from "./DarkMode";
+
 import TrackVisibility from "react-on-screen";
 
 const Hero = () => {
@@ -71,23 +71,28 @@ const Hero = () => {
                 >
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>
-                    {`Hey There! I'm Nandine Familiar with `}{" "}
+                    {`Hey There! I'm Nandine , I know `}{" "}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
                       data-rotate='[ "Web development","Frontend development", "Web design", "UI/UX design" ]'
                     >
-                    <span className="wrap">{text}</span>
+                      <span className="wrap"><br/>{text}</span>
                     </span>
                   </h1>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                    I have a well-rounded skill set with experience in web
+                    development, web design, and UI/UX design that enables me to
+                    approach projects from various angles. I'm also proficient
+                    in languages like HTML, CSS, Bootstrap, TailwindCSS,
+                    JavaScript, and Reactjs. I'm constantly learning new methods
+                    and tools to keep up with the most recent developments in
+                    the field.
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button
+                    class="connect"
+                    onClick={() => console.log("connect")}
+                  >
                     <a href="https://linked.com"> Let’s Connect </a>
                     <ArrowRightCircle size={25} />
                   </button>

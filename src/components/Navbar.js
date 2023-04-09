@@ -7,8 +7,6 @@ import Navbar from "react-bootstrap/Navbar";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/github.png";
 import navIcon3 from "../assets/img/discord.png";
-import theme from "../assets/img/first.png";
-import DarkMode from "./DarkMode";
 import { useState, useEffect } from "react";
 
 function BasicExample() {
